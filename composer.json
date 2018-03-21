@@ -1,0 +1,21 @@
+{
+    "name": "ijanki/ldap-adapter",
+    "description": "a symfony ldap adapter that does not allow null passwords",
+    "type": "library",
+    "keywords": ["ldap"],
+    "homepage": "https://github.com/iJanki/LdapAdapter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cesarini, Daniele",
+            "email": "daniele.cesarini@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Ijanki\\Component\\Ldap\\Adapter\\": "" }
+    },
+    "require": {
+        "ext-ldap": "*",
+        "symfony/ldap": "*"
+    }
+}
