@@ -1,4 +1,4 @@
-**Ldap adapter that does not allow null passowrd (anonymous binding)**
+**Ldap adapter that does not allow null password (no anonymous binding)**
 
 Configure like any other ldap adapter.
 
